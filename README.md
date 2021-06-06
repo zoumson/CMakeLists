@@ -12,10 +12,10 @@
 [![Stack Overflow][stackoverflow-shield]][stackoverflow.com/users/11175375/adam]
 [![Leetcode][leetcode-shield]][eetcode.com/Hard_Code/]
 -->
-## Detection of a car license plate in a parking lot
-![image](https://user-images.githubusercontent.com/38358621/120076768-da6dd780-c0d9-11eb-8723-8286ad1d293e.png)
+## CMakeLists Series
 
 <!-- TABLE OF CONTENTS -->
+<!--
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -47,14 +47,15 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
+-->
 
 
 <!-- ABOUT THE PROJECT -->
+<!--
 ## About The Project
-
+-->
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
+<!--
 LPR (License Plate Recognition), also known as ANPR (Automatic Number-Plate Recognition) is an image-processing technology used to identify vehicles by their license plates.
 
 The system uses illumination and an infrared camera to take the image of the front or rear of the vehicle, then an image-processing software analyzes the images and extracts the license plate information.
@@ -72,8 +73,9 @@ Here's why LDR is valuable:
 * Last but not least, LPR can be retrofitted and added to existing solutions.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
+-->
 <!--Built with -->
+<--
 ### Built With
 
 <br>
@@ -153,9 +155,10 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 8 directories, 43 files
 
 ```
-
+-->
 
 <!-- GETTING STARTED -->
+<!--
 ## Getting Started
 
 This is a sample code of how you may detect a license plate on a image.
@@ -198,7 +201,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    cd build && sudo make install && cd ..
    ```   
+-->
 <!-- USAGE EXAMPLES -->
+<--
 ### Usage
 1. Command line arguments
 <br>
@@ -271,35 +276,38 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
+-->
 <!-- LICENSE -->
+<!--
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
+-->
 
 <!-- CONTACT -->
+<!--
 ## Contact
 
-Adama Zouma - <!-- [@your_twitter](https://twitter.com/your_username) -->- stargue49@gmail.com
+Adama Zouma - --> <!-- [@your_twitter](https://twitter.com/your_username) --> <!-- - stargue49@gmail.com
 
 Project Link: [https://github.com/zoumson/LicensePlateDetection](https://github.com/zoumson/LicensePlateDetection.git)
 
 
-
+-->
 <!-- ACKNOWLEDGEMENTS -->
+<!--
 ## Acknowledgements
 * [Google](https://www.google.com/)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Github](https://github.com/)
 
 
-
+-->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
+<!--
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -313,4 +321,4 @@ Project Link: [https://github.com/zoumson/LicensePlateDetection](https://github.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: linkedin.com/in/adama-zouma-553bba13a
 [product-screenshot]: images/screenshot.png
-
+-->
