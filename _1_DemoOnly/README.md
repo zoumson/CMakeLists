@@ -64,7 +64,6 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <br>
 
-* [opencv](https://opencv.org/)
 * [cmake](https://cmake.org/)
 * [gnu](https://www.gnu.org/)
 
@@ -105,7 +104,6 @@ This is an example of how to list things you need to use the software and how to
   sudo apt-get install cmake
   ```
  * CPP standard: `CMAKE_CXX_STANDARD 17`
- * [Install](https://askubuntu.com/questions/342202/failed-to-load-module-canberra-gtk-module-but-already-installed) `gtk` and `gtk3` module to access `canberra-gtk-module` used by `opencv imshow`
  
 
 ### Installation
@@ -138,11 +136,12 @@ This is an example of how to list things you need to use the software and how to
 
 2. Expected output 
    ```sh
-   
+   CMakeLists serie number 1.
+   CMakeLists without any external libraries
    ```
 4. Back to the initial file structure configuration
    ```sh
-   rm -r bin build lib 
+   rm -r bin build 
    ```
 <!-- ROADMAP -->
 ## Roadmap
