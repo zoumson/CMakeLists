@@ -93,7 +93,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a sample code of how you may detect a license plate on a image.
+This is a sample code of how you may configure CMakeLists without any external libraries.
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
