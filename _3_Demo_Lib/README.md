@@ -147,7 +147,7 @@ CMakeLists with a custom library and a demo.
 ```
 4. Back to the initial file structure configuration
    ```sh
-   rm -r bin build 
+   rm -r bin build lib
    ```
 <!-- ROADMAP -->
 ## Roadmap
