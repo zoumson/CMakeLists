@@ -70,9 +70,8 @@ Sample of CMakeLists to build custom libraries.
 ## File Structure
 
 ### Folder
-[include/](include/): c++ declarations.
-
-[src/](src/): c++ definitions.
+* [include/](include/): c++ declarations.
+* [src/](src/): c++ definitions.
 
 
 ### Entire Files Structure 
