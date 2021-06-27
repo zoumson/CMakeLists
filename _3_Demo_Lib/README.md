@@ -12,7 +12,7 @@
 [![Stack Overflow][stackoverflow-shield]][stackoverflow.com/users/11175375/adam]
 [![Leetcode][leetcode-shield]][eetcode.com/Hard_Code/]
 -->
-## CMakeLists serie number 1
+## CMakeLists serie number 3
 
 
 <!-- TABLE OF CONTENTS -->
@@ -55,9 +55,8 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Sample of CMakeLists without any external libraries
+Sample of CMakeLists with a demo and a custom library.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 <!--Built with -->
 ### Built With
@@ -79,13 +78,20 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Entire Files Structure 
 
 ```
+.
 ├── CMakeLists.txt
+├── include
+│   └── myLib.h
 ├── README.md
 └── src
-    └── Demo.cpp
+    ├── demo
+    │   ├── CMakeLists.txt
+    │   └── demo.cpp
+    └── lib
+        ├── CMakeLists.txt
+        └── myLib.cpp
 
-1 directory, 3 files
-
+4 directories, 7 files
 
 ```
 
@@ -93,7 +99,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a sample code of how you may configure CMakeLists without any external libraries.
+This is a sample code of how you may configure CMakeLists with a demo and a custom library.
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
@@ -103,7 +109,6 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   sudo apt-get install cmake
   ```
- * CPP standard: `CMAKE_CXX_STANDARD 17`
  
 
 ### Installation
@@ -114,13 +119,13 @@ This is an example of how to list things you need to use the software and how to
    ```
 2. Go to the project directory source
    ```sh
-   cd CMakeLists/_1_DemoOnly
+   cd CMakeLists/_3_Demo_Lib
    ```
-3. Create empty directories `build`,  and `bin`
+3. Create empty directories `build`, `lib`, and `bin`
    ```sh
-   mkdir build  && mkdir bin
+   mkdir build  && mkdir bin && mkdir lib
    ```
-4. Generate the library `libplate.so` and move it to `lib` and the exectutable `demo` and move it to `bin`
+4. Generate the library  and move it to `lib` and the exectutable then move it to `bin`
    ```sh
    cd build && cmake .. && make && cd ..
    ```  
@@ -135,10 +140,10 @@ This is an example of how to list things you need to use the software and how to
 <br>
 
 2. Expected output 
-   ```sh
-   CMakeLists serie number 1.
-   CMakeLists without any external libraries
-   ```
+```sh
+CMakeLists serie number [3].
+CMakeLists with a custom library and a demo.
+```
 4. Back to the initial file structure configuration
    ```sh
    rm -r bin build 
