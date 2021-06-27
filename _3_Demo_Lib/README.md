@@ -12,7 +12,7 @@
 [![Stack Overflow][stackoverflow-shield]][stackoverflow.com/users/11175375/adam]
 [![Leetcode][leetcode-shield]][eetcode.com/Hard_Code/]
 -->
-## CMakeLists serie number 3
+## CMakeLists Serie Number 3
 
 
 <!-- TABLE OF CONTENTS -->
