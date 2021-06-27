@@ -12,7 +12,7 @@
 [![Stack Overflow][stackoverflow-shield]][stackoverflow.com/users/11175375/adam]
 [![Leetcode][leetcode-shield]][eetcode.com/Hard_Code/]
 -->
-## CMakeLists serie number 1
+## CMakeLists Serie Number 4
 
 
 <!-- TABLE OF CONTENTS -->
@@ -55,9 +55,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Sample of CMakeLists without any external libraries
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Sample of CMakeLists with demos and libraries.
 
 <!--Built with -->
 ### Built With
@@ -79,13 +77,29 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Entire Files Structure 
 
 ```
+.
 ├── CMakeLists.txt
+├── include
+│   ├── lib1.h
+│   └── lib2.h
 ├── README.md
 └── src
-    └── Demo.cpp
+    ├── demo
+    │   ├── CMakeLists.txt
+    │   ├── demo1
+    │   │   └── demo1.cpp
+    │   ├── demo2
+    │   │   └── demo2.cpp
+    │   └── demo3
+    │       └── demo3.cpp
+    └── lib
+        ├── CMakeLists.txt
+        ├── lib1
+        │   └── lib1.cpp
+        └── lib2
+            └── lib2.cpp
 
-1 directory, 3 files
-
+9 directories, 11 files
 
 ```
 
@@ -93,7 +107,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a sample code of how you may configure CMakeLists without any external libraries.
+This is a sample code of how you may configure CMakeLists with demos and libraries.
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
@@ -103,7 +117,6 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   sudo apt-get install cmake
   ```
- * CPP standard: `CMAKE_CXX_STANDARD 17`
  
 
 ### Installation
@@ -114,34 +127,63 @@ This is an example of how to list things you need to use the software and how to
    ```
 2. Go to the project directory source
    ```sh
-   cd CMakeLists/_1_DemoOnly
+   cd CMakeLists/_4_Multi-Demo_Multi-Lib 
    ```
-3. Create empty directories `build`,  and `bin`
+3. Create empty directories `build`,  `lib`, and `bin`
    ```sh
-   mkdir build  && mkdir bin
+   mkdir build  && mkdir bin mkdir lib
    ```
-4. Generate the library `libplate.so` and move it to `lib` and the exectutable `demo` and move it to `bin`
+4. Generate the libraries  and move them to `lib` and the exectutables then move them to `bin`
    ```sh
    cd build && cmake .. && make && cd ..
    ```  
 <!-- USAGE EXAMPLES -->
 ### Usage
 
-1. Run with an image in `./ressource/image`
+1. Run the executable `demo1`
 ```
-./bin/demo 
+./bin/demo1 
 ```
-
 <br>
 
-2. Expected output 
+2. Expected output of `demo1`
+```sh
+CMakeLists serie number [4].
+CMakeLists with multiple custom libraries and demos.
+Calling from lib1.
+```
+3. Run the executable `demo2`
+```
+./bin/demo2
+```
+<br>
+
+4. Expected output `demo2`
+```sh
+CMakeLists serie number [4].
+CMakeLists with multiple custom libraries and demos.
+Calling from lib2.
+```   
+5. Run the executable `demo3`
+```
+./bin/demo3
+```
+<br>
+
+6. Expected output `demo3`
+```sh
+[ALL] libraries included.
+CMakeLists serie number [4].
+CMakeLists with multiple custom libraries and demos.
+Calling from lib1.
+CMakeLists serie number [4].
+CMakeLists with multiple custom libraries and demos.
+Calling from lib2.
+```     
+   
+7. Back to the initial file structure configuration
    ```sh
-   CMakeLists serie number 1.
-   CMakeLists without any external libraries
-   ```
-4. Back to the initial file structure configuration
-   ```sh
-   rm -r bin build 
+   rm -r bin build lib
    ```
 <!-- ROADMAP -->
 ## Roadmap
