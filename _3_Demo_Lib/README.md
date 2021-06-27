@@ -72,6 +72,7 @@ Sample of CMakeLists with a demo and a custom library.
 
 ### Folder
 
+[include/](include/): c++ declarations.
 [src/](src/): c++ definitions.
 
 
