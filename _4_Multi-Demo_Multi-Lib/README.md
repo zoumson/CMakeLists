@@ -71,7 +71,8 @@ Sample of CMakeLists with demos and libraries.
 
 ### Folder
 
-[src/](src/): c++ definitions.
+* [include/](include/): c++ declarations.
+* [src/](src/): c++ definitions.
 
 
 ### Entire Files Structure 
@@ -131,7 +132,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. Create empty directories `build`,  `lib`, and `bin`
    ```sh
-   mkdir build  && mkdir bin mkdir lib
+   mkdir build  && mkdir bin && mkdir lib
    ```
 4. Generate the libraries  and move them to `lib` and the exectutables then move them to `bin`
    ```sh
